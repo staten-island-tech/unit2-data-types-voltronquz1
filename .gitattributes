@@ -1,2 +1,61 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# floats 
+# bill= 31.56
+# boolean or true/false
+
+# x=10 
+# == is evaluation
+# if x== 10:
+#     print("x is 10")
+# elif x>10:
+#     print("x is great than 10")
+# else:
+#     print("x is not 10")
+
+# students=["Sean","olivia","Ayaan","Youssef"]
+# print(students[0])
+# for student in students:
+#     print(student)
+# students=["Sean","olivia","Ayaan","Youssef","Andy"]
+# students.append=["Mia"]
+# if "Olivia" in students:
+#     print("she kinda lame")
+# else:
+#     print("She still lame but not in this class")
+# for student in students:
+#     if student== "Mia":
+#         print("Mia is lame")
+#     else:
+#         print("Mia is not here")
+# name= "A N D Y"
+# print(len(name))
+# turtle.done()
+
+
+
+
+
+# money= true
+# friend= true
+# def movie():
+#     if money or friend:
+#     print("movies")
+# movie()
+
+
+
+hw= false
+def movies():
+    if not hw:
+        print("movie time")
+    else:
+        print("Hw")
+movies()
+
+
+
+def factors(x,y):
+    if x % y ==0:
+        print("factor")
+factor(25,5)
