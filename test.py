@@ -22,8 +22,11 @@ import random
 #     item=input("what yu wanna buy")
 # print("thanks for purchase")
 
-y=random.randit(1,100)
-print(y)
+# y=random.randit(1,100)
+# print(y)
+
+
+
 # x = "this is a thing"
 # y= x.split()
 # z = y[0]
