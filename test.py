@@ -36,5 +36,6 @@ import random
 # print(z)
  # ASSESSMENT
 Sent= input("Input a sentence")
-Sentence = Sent.split()
-z=Sent[0]
+Sentence = Sent.split( )
+z=len(Sentence)
+print(z)
