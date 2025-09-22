@@ -22,6 +22,8 @@ import random
 #     item=input("what yu wanna buy")
 # print("thanks for purchase")
 
+
+
 # y=random.randit(1,100)
 # print(y)
 
@@ -32,3 +34,7 @@ import random
 # z = y[0]
 # print(y)
 # print(z)
+ # ASSESSMENT
+Sent= input("Input a sentence")
+Sentence = Sent.split()
+z=Sent[0]
