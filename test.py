@@ -35,7 +35,33 @@ import random
 # print(y)
 # print(z)
  # ASSESSMENT
-Sent= input("Input a sentence")
-Sentence = Sent.split( )
-z=len(Sentence)
-print(z)
+# Sent= input("Input a sentence")
+# Sentence = Sent.split( )
+# z=len(Sentence)
+# print(z)
+
+# day_of_week = input("what day is it? ")
+# if day_of_week == "Friday":
+#     print("correct")
+# else:
+#     print("incorrect")
+
+# x = "test"
+# print(f"hello {x}")
+
+
+
+
+# temp = 75
+# if temp > 68:
+#     print('warm')
+# elif temp == 68:
+#     print('perfect')
+# else:
+#     print('cold')
+
+
+odd=input("Give me a number")
+odd=float(odd)
+if odd/2:
+    print("even")
