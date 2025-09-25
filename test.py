@@ -61,7 +61,9 @@ import random
 #     print('cold')
 
 
-odd=input("Give me a number")
-odd=float(odd)
-if odd/2:
+odd=int(input("Give me a number"))
+
+if odd%2 and odd == 0:
     print("even")
+elif odd%2 and odd >0:
+    print("odd")
