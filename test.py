@@ -61,9 +61,31 @@ import random
 #     print('cold')
 
 
-odd=int(input("Give me a number"))
+# odd=int(input("Give me a number"))
 
-if odd%2 and odd == 0:
-    print("even")
-elif odd%2 and odd >0:
-    print("odd")
+# if odd%2 == 0:
+#     print("even")
+# else:
+#     print("odd")
+
+
+
+
+
+bill= input("How much is the bill?")
+bill=float(bill)
+bill=input("How was the service? Bad,Okay,Good,Great")
+bad=float(0)
+okay=float(0.15)
+Good=float(0.2)
+great=float(0.25)
+
+if bad:
+    bill*bad
+elif okay:
+    bill*okay
+elif Good:
+    Good*bill
+elif great:
+    bill*great
+
