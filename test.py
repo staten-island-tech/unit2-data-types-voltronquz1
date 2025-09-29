@@ -74,19 +74,19 @@ import random
 
 bill= input("How much is the bill?")
 bill=float(bill)
-bill=input("How was the service? Bad,Okay,Good,Great: ")
+service=input("How was the service? Bad,Okay,Good,Great: ")
 Bad=float(0)
 Okay=float(0.15)
 Good=float(0.2)
 Great=float(0.25)
 
-if input(Bad):
+if service == Bad:
     tip=0
-elif input(Okay):
+elif service == Okay:
     tip=bill * Okay
-elif input(Good):
+elif service == Good:
     tip=Good * bill
-elif input(Great):
+elif service == Great:
     tip=bill * Great
 
 print(str("Your tip amount is:")+str(tip))
