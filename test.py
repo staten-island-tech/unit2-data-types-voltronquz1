@@ -70,25 +70,29 @@ import random
 
 
 
+# CHALLENGE 2
+
+# bill= input("How much is the bill?")
+# bill=float(bill)
+# service=input("How was the service? Bad,Okay,Good,Great: ")
+# Bad=float(0)
+# Okay=float(0.15)
+# Good=float(0.2)
+# Great=float(0.25)
+# tip=0
+# if service == 'Bad':
+#     tip= bill * Bad
+# elif service == 'Okay':
+#     tip=bill * Okay
+# elif service == 'Good':
+#     tip=Good * bill
+# elif service == 'Great':
+#     tip=bill * Great
+
+# print(str("Your tip amount is: ")+str(tip))
+# total=tip+bill
+# print(str("Your total bill is ")+str(total))
 
 
-bill= input("How much is the bill?")
-bill=float(bill)
-service=input("How was the service? Bad,Okay,Good,Great: ")
-Bad=float(0)
-Okay=float(0.15)
-Good=float(0.2)
-Great=float(0.25)
-
-if service == Bad:
-    tip=0
-elif service == Okay:
-    tip=bill * Okay
-elif service == Good:
-    tip=Good * bill
-elif service == Great:
-    tip=bill * Great
-
-print(str("Your tip amount is:")+str(tip))
-total=tip+bill
-print(str("Your total bill is")+str(total))
+# CHALLENGE 3
+x=input("give me a number to factor")
