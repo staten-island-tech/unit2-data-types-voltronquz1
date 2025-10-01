@@ -95,4 +95,9 @@ import random
 
 
 # CHALLENGE 3
-x=input("give me a number to factor")
+factors= []
+x=int(input("give me a number to factor"))
+for i in range(1,x+1):
+    if x%i==0:
+        factors.append(i)
+print(f"The factors of {x} is {factors}")
