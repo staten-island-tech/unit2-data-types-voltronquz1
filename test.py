@@ -102,5 +102,12 @@ import random
 #         factors.append(i)
 # print(f"The factors of {x} is {factors}")
 # GCF CHALLENGE 4
+gcf=input("give me two number")
 fac1=[]
+def gcf(x,y):
+    for i in range(1,gcf+1):
+        if x%gcf==0 and y%gcf==0:
 
+
+
+print(gcf)
