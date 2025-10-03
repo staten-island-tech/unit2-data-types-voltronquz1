@@ -107,7 +107,5 @@ fac1=[]
 def gcf(x,y):
     for i in range(1,gcf+1):
         if x%gcf==0 and y%gcf==0:
-
-
-
-print(gcf)
+            gcf.append(i)
+            print(gcf)
