@@ -16,4 +16,4 @@ def lang(x):
         print("English")
     elif char1 < char2:
         print("French")
-lang("")
+lang("Lorsque j'avais six ans j'ai vu, une fois,")
