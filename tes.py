@@ -1,8 +1,9 @@
 # Assessment Pratice
-x=input(print("Give me a parkinglot with parking spaces"))
-for i in range(x):
-    
+def lang(x):
+    # print(x[0])
+    for char in x:
+        print(char)
 
 # def language(x):
 #     print("do something")
-# language("Cadee computer never seems to work in the morning")
+lang("Cadee computer never seems to work in the morning")
