@@ -28,7 +28,7 @@
 def spaces(n,y,t):
     occupied=0
     for i in range(n):
-        print(y[i],t[i])
+        # print(y[i],t[i])
         if y[i]=="C" and t[i]=="C":
             occupied+=1
     return(occupied)
