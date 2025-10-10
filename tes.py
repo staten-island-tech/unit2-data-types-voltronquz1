@@ -39,23 +39,23 @@
 
 
 
-def honi(y):
-    honicounter=0
-    h=0
-    o=0
-    n=0
-    i=0
-    for i in range(honi):
-        len(honi)
-        if y[i]=="H":
-            h+=1
-        if y[i]=="O": 
-            o+=1 
-        if y[i]=="N":
-            n+=1
-        if y[i]=="I":
-            i+=1
-            if y[i]
-                honicounter+=1
-            print(honicounter)
-honi("HHHHOOOONNNNIIII")
+# def honi(y):
+#     honicounter=0
+#     h=0
+#     o=0
+#     n=0
+#     i=0
+#     for i in range(honi):
+#         len(honi)
+#         if y[i]=="H":
+#             h+=1
+#         if y[i]=="O": 
+#             o+=1 
+#         if y[i]=="N":
+#             n+=1
+#         if y[i]=="I":
+#             i+=1
+#             if y[i]
+#                 honicounter+=1
+#             print(honicounter)
+# honi("HHHHOOOONNNNIIII")
