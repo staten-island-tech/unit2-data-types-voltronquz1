@@ -108,4 +108,4 @@ def gcf(x,y):
     for i in range(1,gcf+1):
         if x%gcf==0 and y%gcf==0:
             gcf.append(i)
-            print(gcf)
+print(gcf)
