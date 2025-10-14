@@ -61,11 +61,25 @@
 # honi("HHHHOOOONNNNIIII")
 
 
-def mc(n,s,a):
-    correct=0
-    for i in range(n):
-        if s[i]==a[i]:
-            correct+=1
-        print(correct)
-    mc("a,b,c,d,e")
-    print(correct)
+# def mc(n,s,a):
+#     correct=0
+#     for i in range(n):
+#         if s[i]==a[i]:
+#             correct+=1
+
+# def pass(x):
+#     lower=0
+#     upper=0
+#     digit=0
+#     if len(x)>8 and len(x)<12:
+#         for char in x:
+#             if char.islower():
+
+# def elder(o,n,duels):
+#     owner=o
+#     owners=1
+#     for i in range(n):
+#         if duels[i][1]:
+#             owner=i[0]
+#             owner=owners+1
+
