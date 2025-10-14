@@ -59,3 +59,13 @@
 #                 honicounter+=1
 #             print(honicounter)
 # honi("HHHHOOOONNNNIIII")
+
+
+def mc(n,s,a):
+    correct=0
+    for i in range(n):
+        if s[i]==a[i]:
+            correct+=1
+        print(correct)
+    mc("a,b,c,d,e")
+    print(correct)
