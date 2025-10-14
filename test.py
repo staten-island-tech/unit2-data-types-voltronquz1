@@ -107,8 +107,8 @@ num2=input("give me anothe number")
 cf=[]
 fac1=[]
 fac2=[]
-def gcf(x,y):
+def gcf(x,y): 
     for i in range(1,num1+1):
-        if x%gcf==0 and y%gcf==0:
+        if num1%i==0 and num2%i==0:
             gcf.append(i)
 print(gcf)
