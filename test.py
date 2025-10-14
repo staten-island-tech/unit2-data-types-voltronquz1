@@ -104,6 +104,7 @@ import random
 # GCF CHALLENGE 4
 gcf=input("give me two number")
 fac1=[]
+fac2=[]
 def gcf(x,y):
     for i in range(1,gcf+1):
         if x%gcf==0 and y%gcf==0:
