@@ -83,3 +83,22 @@
 #             owner=i[0]
 #             owner=owners+1
 
+def gcf():  #defines gcf as a function
+    number1 = int(input("Enter 1st number:"))
+    number2 = int(input("Enter 2nd number:"))
+    common_factors = []
+    list_of_factor1 = []        #list for store the factors
+    list_of_factor2 = []
+    for i in range(1, number1 + 1): #for anynumber/i between of i and number1, start at 1 and keep add 1 to number1
+        if number1 % i == 0:    #divide number1 + 1 by i and if remainder = 0 store fir list1
+            list_of_factor1.append(i)
+    for i in range(1, number2 + 1): #for anynumber/i in range of i and number2, starts at 1 keeps adding 1 to number2
+        if number2 % i == 0:    #divide number2 + 1 by i and if remainder = 0 store for list2
+            list_of_factor2.append(i)
+    for i in list_of_factor1:
+        if i in list_of_factor2:        #check for same numbers in both lists and founded same numbers get add to common_factors list
+            common_factors.append(i)
+    gcf = max(common_factors)   #max find biggest number in common_factors list and define it as variable gcf
+    print(f"The GCF of {number1} and {number2} is {gcf}")
+
+gcf()
