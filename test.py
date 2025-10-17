@@ -107,7 +107,7 @@ num2=int(input("give me another number"))
 fac1=[]
 fac2=[]
 cf=[]
-def gcf(x): 
+def gcf(): 
     for i in range(1,num1+1):
         if num1%i==0:
             fac1.append(i)
@@ -118,8 +118,8 @@ def gcf(x):
         if i in fac2:
             cf.append(i)
         gcf=(cf)
-        gcf()
-print(str(f"Gcf of {num1} and {num2} is {gcf}"))
+    gcf=max(cf)
+    print(f"Gcf of {num1} and {num2} is {gcf}")
 
-
+gcf()
 
